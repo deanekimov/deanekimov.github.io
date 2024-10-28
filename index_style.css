@@ -14,10 +14,11 @@ body {
 .content_div_inner {
     padding-left: 3%;
     padding-right: 3%;
+    background-color: #efd12ebf;
+
 }
 
 .content_div_inner:hover {
-    background-color: #efd12ebf;
     box-shadow: 0px 0px 10px 5px #efd12eab;
 }
 
