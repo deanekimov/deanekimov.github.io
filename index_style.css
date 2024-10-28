@@ -21,7 +21,7 @@ body {
 }
 
 @keyframes content_div_inner_bordermove {
-    from {border:initial}
+    from {border-radius:initial;}
     12.5% {    border-top-left-radius: 10%;
     }
     25% {    border-top-left-radius: 10%;
