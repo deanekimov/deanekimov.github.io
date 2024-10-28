@@ -17,12 +17,6 @@ body {
     padding-right: 3%;
 }
 
-.content_div_inner {
-    animation: content_div_inner_bordermove 1s;
-    animation-iteration-count: 1;
-
-}
-
 @keyframes content_div_inner_bordermove {
     from {border-radius:0%;}
     50% {
