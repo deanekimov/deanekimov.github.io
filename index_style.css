@@ -2,10 +2,15 @@ body {
     background-image: linear-gradient(to right, pink, lightblue);
     background-blend-mode: overlay;
     background-color: #5c262654;
-    align-items: center;
 }
 
 .content_div {
-    text-align: center;
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content_div_inner {
+    /* Empty for now */
 }
