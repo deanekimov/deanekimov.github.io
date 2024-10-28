@@ -20,7 +20,7 @@ body {
 }
 
 @keyframes content_div_inner_bordermove {
-    from {border-radius:initial;}
+    from {border-radius:30%;}
     12.5% {    border-top-left-radius: 10%;
     }
     25% {    border-top-left-radius: 10%;
@@ -45,5 +45,5 @@ body {
         border-bottom-left-radius: 10%;
         
     }
-    to {border-radius: initial;}
+    to {border-radius: 30%;}
 }
