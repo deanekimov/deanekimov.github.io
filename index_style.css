@@ -1,4 +1,4 @@
 body {
-    background-image: linear-gradient(to right,pink, lightblue);
+    background-image: linear-gradient(to right,red, lightblue);
     background-blend-mode: overlay;
 }
