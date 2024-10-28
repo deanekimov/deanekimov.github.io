@@ -12,9 +12,13 @@ body {
 }
 
 .content_div_inner {
-    background-color: grey;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.content_div_inner:hover {
+    background-color: #efd12ebf;
+    box-shadow: 0px 0px 10px 5px #efd12eab;
 }
 
 @keyframes content_div_inner_bordermove {
