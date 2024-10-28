@@ -16,7 +16,7 @@ body {
     border-radius: 30%;
     padding-left: 3%;
     padding-right: 3%;
-    animation: content_div_inner_bordermove 10s infinite;
+    animation: content_div_inner_bordermove 30s infinite;
 }
 
 @keyframes content_div_inner_bordermove {
