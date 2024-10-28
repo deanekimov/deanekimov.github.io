@@ -14,4 +14,37 @@ body {
 .content_div_inner {
     background-color: grey;
     border-radius: 30%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: gray solid 3px;
+    animation: content_div_inner_bordermove 10s infinite;
+}
+
+@keyframes content_div_inner_bordermove {
+    from {border:initial}
+    12.5% {    border-top-left-radius: 10%;
+    }
+    25% {    border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+
+    }
+    37.5% {    border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    50% {    border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+    62.5% {        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;}
+    75% {        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;}
+    87.5% {
+        border-bottom-left-radius: 10%;
+        
+    }
+    to {border-radius: initial;}
 }
