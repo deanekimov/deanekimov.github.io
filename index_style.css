@@ -16,7 +16,6 @@ body {
     border-radius: 30%;
     padding-left: 3%;
     padding-right: 3%;
-    border: gray solid 3px;
     animation: content_div_inner_bordermove 10s infinite;
 }
 
