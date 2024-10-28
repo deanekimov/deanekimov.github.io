@@ -12,5 +12,6 @@ body {
 }
 
 .content_div_inner {
-    /* Empty for now */
+    background-color: grey;
+    border-radius: 30%;
 }
