@@ -15,7 +15,7 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     background-color: #efd12ebf;
-
+    transition: box-shadow ease 0.5s;
 }
 
 .content_div_inner:hover {
