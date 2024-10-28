@@ -1,4 +1,5 @@
 body {
-    background-image: linear-gradient(to right,red, lightblue);
+    background-image: linear-gradient(to right, pink, lightblue);
     background-blend-mode: overlay;
+    background-color: #5c262654;
 }
