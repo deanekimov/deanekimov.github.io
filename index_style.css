@@ -13,14 +13,14 @@ body {
 
 .content_div_inner {
     background-color: grey;
-    border-radius: 30%;
+    border-radius: 50%;
     padding-left: 3%;
     padding-right: 3%;
     animation: content_div_inner_bordermove 30s infinite;
 }
 
 @keyframes content_div_inner_bordermove {
-    from {border-radius:30%;}
+    from {border-radius:50%;}
     12.5% {    border-top-left-radius: 10%;
     }
     25% {    border-top-left-radius: 10%;
@@ -45,5 +45,5 @@ body {
         border-bottom-left-radius: 10%;
         
     }
-    to {border-radius: 30%;}
+    to {border-radius: 50%;}
 }
