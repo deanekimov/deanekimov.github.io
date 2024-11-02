@@ -1,34 +1,25 @@
 body {
-    background-image: linear-gradient(to right, pink, lightblue);
-    background-blend-mode: overlay;
-    background-color: #5c262654;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.content_div {
-    margin-top: 5%;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.content_div_inner {
+    justify-content: space-between;
     padding: 20px;
-    background-color: #efd12ebf;
-    transition: box-shadow ease 0.5s;
-    width: 300px;
-    border-radius: 10px;
-    animation: content_div_inner_bordermove 8s infinite;
+    background-color: #f5f5f5;
 }
 
-.content_div_inner:hover {
-    box-shadow: 0px 0px 10px 5px #efd12eab;
+#main-content {
+    flex: 2;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#project-list {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #project-list h2, #about-me h1, #project-info h2 {
@@ -45,7 +36,6 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: inherit;
 }
 
 button:hover {
@@ -54,10 +44,4 @@ button:hover {
 
 .hidden {
     display: none;
-}
-
-@keyframes content_div_inner_bordermove {
-    from {border-radius: 0%;}
-    50% {border-radius: 100%;}
-    to {border-radius: 0%;}
 }
