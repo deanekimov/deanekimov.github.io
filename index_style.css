@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(to right, pink, lightblue);
     background-blend-mode: overlay;
     background-color: #5c262654;
+    transition: background-image 5s ease;
 }
 
 .content_div {
