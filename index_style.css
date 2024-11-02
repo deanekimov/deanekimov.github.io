@@ -45,3 +45,31 @@ button:hover {
 .hidden {
     display: none;
 }
+
+/* Add a full-height container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Content styling */
+.content_div {
+    display: flex;
+    gap: 20px;
+    padding: 20px; /* Equal padding around */
+}
+
+.content_div_inner {
+    padding: 20px;
+    background-color: #efd12ebf;
+    transition: box-shadow ease 0.5s;
+    width: 300px;
+    border-radius: 10px;
+    animation: content_div_inner_bordermove 8s infinite;
+}
+
+.content_div_inner:hover {
+    box-shadow: 0px 0px 10px 5px #efd12eab;
+}
