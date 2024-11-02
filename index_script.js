@@ -13,3 +13,10 @@ function getRandomColor() {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
+function showProject(title, description) {
+    document.getElementById("about-me").classList.add("hidden");
+    document.getElementById("project-info").classList.remove("hidden");
+
+    document.getElementById("project-title").innerText = title;
+    document.getElementById("project-description").innerText = description;
+}
