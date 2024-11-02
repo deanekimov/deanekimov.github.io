@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="index_style.css">
 </head>
 <body>
-    <div id="main-content">
-        <div id="about-me">
-            <h1>About Me</h1>
-            <p>Welcome! Here’s a little about me: I’m an economics and finance major with a love for coding, especially in web development and economic simulations.</p>
+    <div class="content_div">
+        <div class="content_div_inner" id="main-content">
+            <div id="about-me">
+                <h1>About Me</h1>
+                <p>Welcome! Here’s a little about me: I’m an economics and finance major with a love for coding, especially in web development and economic simulations.</p>
+            </div>
+            <div id="project-info" class="hidden">
+                <h2 id="project-title"></h2>
+                <p id="project-description"></p>
+            </div>
         </div>
-        <div id="project-info" class="hidden">
-            <h2 id="project-title"></h2>
-            <p id="project-description"></p>
+        <div class="content_div_inner" id="project-list">
+            <h2>My Projects</h2>
+            <button onclick="showProject('Project 1', 'This project is about analyzing economic data to identify trends and patterns in the market.')">Project 1</button>
+            <button onclick="showProject('Project 2', 'In this project, I built a market-simulation model that explores supply and demand dynamics.')">Project 2</button>
+            <button onclick="showProject('Project 3', 'This project is a web-based tool for optimizing portfolios using various financial algorithms.')">Project 3</button>
         </div>
-    </div>
-    <div id="project-list">
-        <h2>My Projects</h2>
-        <!-- Add project descriptions directly here in the onclick attribute -->
-        <button onclick="showProject('Project 1', 'This project is about analyzing economic data to identify trends and patterns in the market.')">Project 1</button>
-        <button onclick="showProject('Project 2', 'In this project, I built a market-simulation model that explores supply and demand dynamics.')">Project 2</button>
-        <button onclick="showProject('Project 3', 'This project is a web-based tool for optimizing portfolios using various financial algorithms.')">Project 3</button>
     </div>
     <script src="index_script.js"></script>
 </body>
