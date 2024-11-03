@@ -4,6 +4,13 @@ body {
     background-color: #3E362E;
 }
 
+
+#temporary-test-id {
+    background-image: linear-gradient(to right, #ffff00 0%, rgb(255 187 0) 3%, #ffff00 16%, #ffff00 100%);
+    animation: text-sheen 1.5s infinite;
+    background-clip: text;
+}
+
 #temp-body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -48,3 +55,8 @@ button:hover {
     display: none;
 }
 
+@keyframes text-sheen {
+    to {
+        background-position: 200% center;
+    }
+}
