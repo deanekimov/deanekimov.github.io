@@ -15,17 +15,13 @@ body {
 #main-content {
     flex: 2;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ac8968;
 }
 
 #project-list {
     flex: 1;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ac8968;
 }
 
 #project-list h2, #about-me h1, #project-info h2 {
@@ -37,7 +33,7 @@ button {
     margin: 10px 0;
     padding: 10px;
     width: 100%;
-    background-color: #0073e6;
+    background-color: #be844e;
     color: white;
     border: none;
     border-radius: 4px;
